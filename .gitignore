@@ -1,0 +1,23 @@
+# .NET build artifacts
+bin/
+obj/
+.vs/
+**/Release/
+**/Debug/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+packages/
+*.nupkg
+*.pdb
+*.log
+
+# Large published executables (publish manually when needed - >100MB)
+OfficePrintSystem/Publish/Server/OfficePrintServer.Service.exe
+OfficePrintSystem/Publish/Server/Server/OfficePrintServer.Service.exe
+OfficePrintSystem/Publish/Client/OfficePrintClient.WPF.exe
+
+# Keep slim version executables (under 100MB limit)
+!officePrintByBag/**/*.exe
+!officePrintByBag/**/*.dll

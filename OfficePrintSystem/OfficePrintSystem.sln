@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficePrintServer.Core", "OfficePrintServer.Core\OfficePrintServer.Core.csproj", "{1BC23C08-1EBD-4565-AD22-A1F33FA2F922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficePrintServer.Infrastructure", "OfficePrintServer.Infrastructure\OfficePrintServer.Infrastructure.csproj", "{F67A6750-1D6E-4305-A6AC-00ACEA9F6A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficePrintServer.API", "OfficePrintServer.API\OfficePrintServer.API.csproj", "{5659F229-7762-48D2-9357-BE68F891B67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficePrintServer.Service", "OfficePrintServer.Service\OfficePrintServer.Service.csproj", "{FBADDF82-EF37-46DC-8008-B0D207119FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficePrintClient.WPF", "OfficePrintClient.WPF\OfficePrintClient.WPF.csproj", "{3E0395F9-B553-45B8-A0E8-84714B700986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC23C08-1EBD-4565-AD22-A1F33FA2F922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC23C08-1EBD-4565-AD22-A1F33FA2F922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC23C08-1EBD-4565-AD22-A1F33FA2F922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC23C08-1EBD-4565-AD22-A1F33FA2F922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67A6750-1D6E-4305-A6AC-00ACEA9F6A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67A6750-1D6E-4305-A6AC-00ACEA9F6A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67A6750-1D6E-4305-A6AC-00ACEA9F6A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67A6750-1D6E-4305-A6AC-00ACEA9F6A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5659F229-7762-48D2-9357-BE68F891B67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5659F229-7762-48D2-9357-BE68F891B67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5659F229-7762-48D2-9357-BE68F891B67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5659F229-7762-48D2-9357-BE68F891B67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBADDF82-EF37-46DC-8008-B0D207119FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBADDF82-EF37-46DC-8008-B0D207119FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBADDF82-EF37-46DC-8008-B0D207119FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBADDF82-EF37-46DC-8008-B0D207119FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0395F9-B553-45B8-A0E8-84714B700986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0395F9-B553-45B8-A0E8-84714B700986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0395F9-B553-45B8-A0E8-84714B700986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0395F9-B553-45B8-A0E8-84714B700986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
