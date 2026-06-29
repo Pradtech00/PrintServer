@@ -21,7 +21,7 @@ $stepsA = @(
     "Control Panel > Devices and Printers > Add Printer",
     "Add a printer using an IP address or hostname",
     "Device type: TCP/IP Device",
-    "Hostname or IP: 192.168.1.100",
+    "Hostname or IP: 193.13.7.17",
     "Uncheck 'Query the printer and automatically select the driver'",
     "Klik Next (abaikan not detected, pilih Standard)",
     "Pilih driver: EPSON L1110 Series (atau L3110/L3210)",
@@ -39,9 +39,9 @@ $stepsB = @(
     "Control Panel > Devices and Printers > Add Printer",
     "Add a printer using an IP address or hostname",
     "Device type: TCP/IP Device",
-    "Hostname: 192.168.1.100",
+    "Hostname: 193.13.7.17",
     "Atau pilih Create a new port > Standard TCP/IP Port",
-    "Atau URL: http://192.168.1.100:18080/ipp/EPSON L1110 Series",
+    "Atau URL: http://193.13.7.17:18080/ipp/EPSON L1110 Series",
     "Pilih driver > Finish"
 )
 for($i=0;$i -lt $stepsB.Length;$i++){ w("$($i+1). $($stepsB[$i])"); p() }
@@ -62,18 +62,18 @@ p()
 # Troubleshooting
 bold("TROUBLESHOOTING"); p(); p()
 $troubles = @(
-    @("Test koneksi:", "Test-NetConnection 192.168.1.100 -Port 9100"),
+    @("Test koneksi:", "Test-NetConnection 193.13.7.17 -Port 9100"),
     @("Printer tidak muncul:", "Pastikan firewall server buka port 9100"),
     @("Error device not found:", "Pilih Standard, uncheck SNMP"),
     @("Driver tidak ada:", "Gunakan Epson L3110/L3210 sebagai alternatif"),
     @("Test page gagal:", "Cek log server di C:\Program Files\OfficePrintServer\logs\"),
-    @("Cek API:", "Invoke-RestMethod http://192.168.1.100:18080/api/printers")
+    @("Cek API:", "Invoke-RestMethod http://193.13.7.17:18080/api/printers")
 )
 foreach($t in $troubles){ bold($t[0]); p(); w($t[1]); p(); p() }
 
 # Info
 bold("INFORMASI SERVER"); p()
-w("IP Server: 192.168.1.100"); p()
+w("IP Server: 193.13.7.17"); p()
 w("Raw TCP Port: 9100"); p()
 w("IPP Port: 18080"); p()
 w("Service: OfficePrintServer"); p()

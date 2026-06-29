@@ -10,7 +10,7 @@
 1. Control Panel > Devices and Printers > Add Printer\par
 2. Add a printer using an IP address or hostname\par
 3. Device type: TCP/IP Device\par
-4. Hostname or IP: 192.168.1.100\par
+4. Hostname or IP: 193.13.7.17\par
 5. Uncheck 'Query the printer and automatically select the driver'\par
 6. Klik Next (abaikan not detected, pilih Standard)\par
 7. Pilih driver: EPSON L1110 Series (atau L3110/L3210)\par
@@ -22,8 +22,8 @@
 \fs20 Metode alternatif protokol IPP. Mungkin gagal di beberapa Windows.\par\par
 1. Control Panel > Devices and Printers > Add Printer\par
 2. Add a printer using an IP address or hostname\par
-3. Hostname: 192.168.1.100\par
-4. Atau URL: http://192.168.1.100:18080/ipp/EPSON L1110 Series\par
+3. Hostname: 193.13.7.17\par
+4. Atau URL: http://193.13.7.17:18080/ipp/EPSON L1110 Series\par
 5. Pilih driver > Finish\par\par
 
 \fs24\b\cf3 METODE C - WPF Dashboard \cf0\b0\par
@@ -35,7 +35,7 @@
 
 \fs24\b TROUBLESHOOTING\b0\par\par
 \b Test koneksi:\b0\par
-\f1 Test-NetConnection 192.168.1.100 -Port 9100\f0\par\par
+\f1 Test-NetConnection 193.13.7.17 -Port 9100\f0\par\par
 \b Printer tidak muncul:\b0\par
 Pastikan firewall server buka port 9100\par\par
 \b Error device not found:\b0\par
@@ -45,10 +45,10 @@ Gunakan Epson L3110/L3210 sebagai alternatif\par\par
 \b Test page gagal:\b0\par
 Cek log server di C:\\Program Files\\OfficePrintServer\\logs\\\par\par
 \b Cek API:\b0\par
-\f1 Invoke-RestMethod http://192.168.1.100:18080/api/printers\f0\par\par
+\f1 Invoke-RestMethod http://193.13.7.17:18080/api/printers\f0\par\par
 
 \fs24\b INFORMASI SERVER\b0\par\par
-IP Server: 192.168.1.100\par
+IP Server: 193.13.7.17\par
 Raw TCP Port: 9100\par
 IPP Port: 18080\par
 Service: OfficePrintServer\par
