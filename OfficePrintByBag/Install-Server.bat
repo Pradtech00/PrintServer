@@ -97,7 +97,7 @@ echo METHOD A - Standard TCP/IP Port (RECOMMENDED):
 echo On client: Control Panel ^> Devices and Printers ^> Add Printer
 echo Select "Add a printer using an IP address or hostname"
 echo Device type: TCP/IP Device
-echo IP: 193.13.7.17
+echo IP: 192.168.1.100
 echo Port: 9100
 echo Then select printer driver: EPSON L1110 Series
 echo.

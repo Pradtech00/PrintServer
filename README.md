@@ -33,8 +33,8 @@ officePrintByBag\Install-Server.bat
 
 | Metode | Cara |
 |--------|------|
-| **A. Standard TCP/IP Port ✅** | Add Printer > IP: `193.13.7.17` Port: `9100` |
-| **B. IPP** | URL: `http://193.13.7.17:18080/ipp/EPSON L1110 Series` |
+| **A. Standard TCP/IP Port ✅** | Add Printer > IP: `192.168.1.100` Port: `9100` |
+| **B. IPP** | URL: `http://192.168.1.100:18080/ipp/EPSON L1110 Series` |
 | **C. WPF Dashboard** | `OfficePrintClient.WPF.exe` — drag-drop PDF |
 
 ## Struktur Repo
