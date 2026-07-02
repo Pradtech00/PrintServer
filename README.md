@@ -1,4 +1,4 @@
-# 🖨️ Office Print Server
+# 🖨️ Office Print Server v1.0
 
 by **Bagus Pradika** — 2026
 
